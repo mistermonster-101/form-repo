@@ -9,6 +9,9 @@
             display: block;
             margin-bottom: 10px;
         }
+        td, th{
+            border: 1px ridge lightgrey;
+        }
     </style>
 </head>
 <body>
@@ -72,5 +75,41 @@
         </fieldset>
         <input type="reset" value="Reset">
         <input type="submit" value="Submit">
+        <table>
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Name</th>
+                    <th>Company</th>
+                    <th>Salary</th>
+                </tr>
+            </thead>
+            <tbody>
+                   <tr>
+                        <td>1</td>
+                        <td>bill gates</td>
+                        <td>microsoft</td>
+                        <td>1000000$</td>
+                   </tr>
+                   <tr>
+                       <td>2</td>
+                       <td>steve jobs</td>
+                       <td>funder apple</td>
+                       <td>1200000$</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>lary page</td>
+                        <td>google</td>
+                        <td>1100000$</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>mark zuckerberg</td>
+                        <td>facebook</td>
+                        <td>3200000$</td>
+                    </tr>
+            </tbody>
+        </table>
 </body>
 </html>
