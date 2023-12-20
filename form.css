@@ -1,0 +1,25 @@
+form{
+    border-radius: 50px;
+    border: 40px double gray;
+    padding: 40px
+    ;
+}
+label{
+    display: block;
+    margin-bottom: 10px;
+}
+table{
+    border-collapse: collapse;
+}
+td, th{
+    border: 1px solid black;
+    padding: 5px 15px;
+}
+h1{
+    border-radius: 50px;
+    border: 40px ridge gray;
+    padding: 40px;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
