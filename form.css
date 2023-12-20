@@ -20,7 +20,7 @@ h1{
     border: 40px ridge gray;
     padding: 40px;
     text-align: center;
-    margin-left: 100px;
+    margin-left: 125px;
     margin-right: 100px;
 }
 nav li{
@@ -35,4 +35,7 @@ nav li:hover{
 nav li a{
     text-decoration: none;
     color: black;
+}
+header{
+    text-align: center;
 }
