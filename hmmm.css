@@ -1,0 +1,27 @@
+ h2{
+    color: blue;
+    border: 40px maroon;
+    border-style: groove;
+    padding: 20px;
+    text-decoration: line-through wavy red;
+    box-shadow: 10px 10px 10px black;
+    margin: 90px;
+    
+ }
+ p{
+   color: brown;
+   border: 40px goldenrod;
+   border-style: groove;padding: 20px;
+ }
+ .header{
+   color: red;
+   background-repeat: no-repeat;
+   background-position: center;
+   height: 150px;
+   background-image: url('hell.jpg');
+ }
+ .blog{
+  box-shadow: 20px 20px 20px black;
+  margin: 10px;
+
+ }
