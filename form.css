@@ -23,6 +23,9 @@ h1{
     margin-left: 125px;
     margin-right: 100px;
 }
+nav > ul{
+    display: flex;
+}
 nav li{
     list-style: none;
     display: inline;
@@ -38,4 +41,13 @@ nav li a{
 }
 header{
     text-align: center;
+}
+nav li .dropdown{
+    display: none;
+    position: absolute;
+    background-color: antiquewhite;
+    padding-left: 0px;
+}
+nav li:hover > .dropdown{
+    display: block;
 }
