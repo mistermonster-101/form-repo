@@ -28,7 +28,6 @@ nav > ul{
 }
 nav li{
     list-style: none;
-    display: inline;
     padding: 5px;
     margin-right: 10px;
 }
@@ -39,14 +38,11 @@ nav li a{
     text-decoration: none;
     color: black;
 }
-header{
-    text-align: center;
-}
 nav li .dropdown{
     display: none;
     position: absolute;
-    background-color: antiquewhite;
-    padding-left: 0px;
+    background-color: lightcyan;
+    padding-left: 0;
 }
 nav li:hover > .dropdown{
     display: block;
